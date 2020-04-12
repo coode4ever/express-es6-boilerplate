@@ -1,0 +1,16 @@
+{
+  "name": "express-es6-boilerplate",
+  "version": "1.0.0",
+  "author": "Arjun Ghimire",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-watch index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-watch": "^7.0.0",
+    "express": "^4.17.1"
+  }
+}
